@@ -42,9 +42,9 @@ public class MohylaCommand extends AbstractCommand {
         answers.add(new AnswerChoser(Pattern.compile("^.*[Хх][Тт][Оо].[Тт][Ии].*$"), "Анонім з Підслухано. Не впізнав?"));
         answers.add(new AnswerChoser(Pattern.compile("^.*[Тт][Аа][Кк]|[Дд][Аа]|[Аа][Гг][Аа].*$"), "Красава\nЩо ти хочеш дізнатись?"));
         answers.add(new AnswerChoser(Pattern.compile("^.*[Кк][Аа][Кк].*[Дд][Ее][Лл][Аа].*$"),"Как сажа бела. А в тебе?"));
-        answers.add(new AnswerChoser(Pattern.compile("^.*[Гг][Лл][Ии][Бб][Оо][Вв][Ее][Цц].*$"),"Тобі потрібен Андрій Миколайович чи Микола Миколайович?"));
+        answers.add(new AnswerChoser(Pattern.compile("^.*[Гг][Лл][Ии][Бб][Оо][Вв].*$"),"Тобі потрібен Андрій Миколайович чи Микола Миколайович?"));
         answers.add(new AnswerChoser(Pattern.compile("^.*[Яя][Кк].*[Сс][Пп][Рр][Аа][Вв][Ии].*$"),"Та ще живий. А в тебе?"));
-        answers.add(new AnswerChoser(Pattern.compile("^.*[Пп][Аа][Рр][Ии]|.*$"), "Пари - тлєн"));
+        answers.add(new AnswerChoser(Pattern.compile("^.*[Пп][Аа][Рр][Ии].*$"), "Пари - тлєн"));
         answers.add(new AnswerChoser(Pattern.compile("^.*[Хх][Тт][Оо].*[Аа][Нн][Оо][Нн].*$"), "Може я, може ти, може ще хтось..."));
         answers.add(new AnswerChoser(Pattern.compile("^.*[Кк][Оо][Рр][Аа][Бб][Лл][Ии][Кк].*$"), "я вчусь, нема коли гулять. Питай у Шакра та Богодара"));
         answers.add(new AnswerChoser(Pattern.compile("^.*[Хх][Тт][Оо].*[Лл][Ее][Гг][Іі][Тт][Ии][Мм][Нн][Ии][Йй].*$"), "Ковальонок!"));
